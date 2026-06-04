@@ -22,8 +22,8 @@ El laboratorio demuestra el uso de carga automática (Autoload) mediante Namespa
 
 | Namespace | Ruta Física |
 |---|---|
-| Idianeth\AutoloadLab\Models | src/Models |
-| Idianeth\AutoloadLab\Controllers | src/Controllers |
+| JosephSiso\AutoloadLab\Models | src/Models |
+| JosephSiso\AutoloadLab\Controllers | src/Controllers |
 
 
 # Configuración de Composer
@@ -32,16 +32,16 @@ El laboratorio demuestra el uso de carga automática (Autoload) mediante Namespa
 
 ```json
 {
-    "name": "idianeth/autoload-lab",
+    "name": "JosephSiso/autoload-lab",
     "description": "Laboratorio PSR-4",
     "autoload": {
         "psr-4": {
-            "Idianeth\\AutoloadLab\\": "src/"
+            "JosephSiso\\AutoloadLab\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Idianeth Hanna"
+            "name": "Joseph Siso"
         }
     ],
     "require": {}
@@ -98,7 +98,7 @@ require 'vendor/autoload.php';
 ## Uso de Namespace
 
 ```php
-namespace Idianeth\AutoloadLab\Models;
+namespace JosephSiso\AutoloadLab\Models;
 ```
 
 ---
@@ -106,7 +106,7 @@ namespace Idianeth\AutoloadLab\Models;
 ## Uso de la palabra reservada use
 
 ```php
-use Idianeth\AutoloadLab\Models\Usuario;
+use JosephSiso\AutoloadLab\Models\Usuario;
 ```
 
 ---
@@ -145,6 +145,6 @@ El proyecto utiliza un archivo `.gitignore` para excluir la carpeta `vendor/`, p
 
 # Autor
 
-Idianeth Hanna  
+Joseph Siso  
 Desarrollo de Software VII  
 Universidad Tecnológica de Panamá
