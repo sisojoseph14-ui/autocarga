@@ -1,0 +1,15 @@
+{
+    "name": "josephsiso/autoload-lab",
+    "description": "Laboratorio PSR-4",
+    "autoload": {
+        "psr-4": {
+            "JosephSiso\\AutoloadLab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joseph Siso"
+        }
+    ],
+    "require": {}
+}
