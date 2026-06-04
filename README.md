@@ -84,7 +84,6 @@ php index.php
 ```plaintext
 Hola desde Usuario
 ```
-![Resultado](img/resultado.png)
 
 
 # Evidencias de Autoload
